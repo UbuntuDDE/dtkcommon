@@ -1,9 +1,15 @@
 Source: dtkcommon
 Section: libdevel
 Priority: optional
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Build-depends: debhelper (>= 9), pkg-config, libglib2.0-bin, qttools5-dev-tools, qtbase5-private-dev, git
-Standards-Version: 3.9.8
+Maintainer: Arun Kumar Pariyar <openarungeek@gmail.com>
+XSBC-Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-depends: debhelper-compat (=13),
+               git,
+               libglib2.0-bin,
+               pkg-config,
+               qtbase5-private-dev,
+               qttools5-dev-tools
+Standards-Version: 4.5.0
 Homepage: http://www.deepin.org/
 
 Package: libdtkcommon
@@ -18,6 +24,6 @@ Package: libdtkcommon-dev
 Architecture: any
 Conflicts: libdtkcore-dev(<< 5.4.10)
 Replaces: libdtkcore-dev(<< 5.4.10)
-Depends: ${misc:Depends}, ${shlibs:Depends}, libdtkcommon( =${binary:Version})
+Depends: libdtkcommon( =${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: dtk common files
  Used to store public build files
