@@ -1,3 +1,9 @@
+dtkcommon (5.6.3-1) lunar; urgency=medium
+
+  * New upstream release.
+
+ -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sun, 08 Jan 2023 19:57:59 +0545
+
 dtkcommon (5.5.17-1ubuntu3) impish; urgency=medium
 
   * Re-upload.

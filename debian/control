@@ -5,6 +5,7 @@ Maintainer: Arun Kumar Pariyar <openarungeek@gmail.com>
 XSBC-Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
 Build-depends: debhelper-compat (=13),
                git,
+               cmake,
                libglib2.0-bin,
                pkg-config,
                qtbase5-private-dev,
