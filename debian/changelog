@@ -1,3 +1,15 @@
+dtkcommon (5.6.8) unstable; urgency=medium
+
+  * Release 5.6.8
+
+ -- Deepin Packages Builder <packages@deepin.com>  Wed, 22 Feb 2023 13:47:22 +0800
+
+dtkcommon (5.6.4) unstable; urgency=medium
+
+  * Release 5.6.4
+
+ -- Deepin Packages Builder <packages@deepin.com>  Mon, 09 Jan 2023 15:39:07 +0800
+
 dtkcommon (5.6.3) unstable; urgency=medium
 
   * Release 5.6.3
